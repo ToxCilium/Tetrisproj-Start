@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HcRsvZlteHMQej/I5iiNCtvjl0oLNjCA38g/HUXLqYYPiv0iIrH1e/ADOj20pItmku3vHh+XqQUjgCPX1IkngQ==",
+  "dgSpecHash": "x3kbbnxx/PH6WjrNwIK+BHKJL3CN7J2Rz8BjTu5OmQmNlP284oBTzvmtg/S9n7yyUUi9QnaahBrMagZFPQ6nXQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\source\\repos\\App2\\App2\\App2\\App2.csproj",
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\Tetris\\Tetris-Prog\\App2\\App2\\App2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

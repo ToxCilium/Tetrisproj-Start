@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iVZqlM6WBX7caq9EHmkNDMtBERkJk2CBb6dHH3E1d2szpfFbu11UrUKw2gi42+thzyH72mAJrbEWyHQvnpBNIA==",
+  "dgSpecHash": "WYAi2XLum9l+zo9wgNn0+g/IbbCmNMQv3IP2zEM4vGYKsyQsXOSrVS0mSbM7i/daorDrkodh+VNvIE914qR5qw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\source\\repos\\App2\\App2\\App2.iOS\\App2.iOS.csproj",
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\Tetris\\Tetris-Prog\\App2\\App2.iOS\\App2.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",

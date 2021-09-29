@@ -3,11 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App2.MainPage">
 
-    <StackLayout>
-        <StackLayout>
-            <Label x:Name="lbl" Text="Hello"  FontSize="24" />
-            <Button Text="Change" Clicked="Button_Clicked" FontSize="24" />
-        </StackLayout>
-    </StackLayout>
+    <AbsoluteLayout>
+        <BoxView Color="Black" AbsoluteLayout.LayoutBounds="1, 1, 500, 45" VerticalOptions="Center" />
+        <Label  Text="Tetris-Proj" TextColor="White" FontSize="30" FontFamily="Pixel" AbsoluteLayout.LayoutBounds="75, 10, 500, 55"   />
+        <Button Text="Start" FontFamily="Pixel" TextColor="GreenYellow"  FontSize="24" AbsoluteLayout.LayoutBounds="5, 630, 350, 60" />
+        <Button x:Name="EMH" Text="Ez" FontFamily="Pixel" TextColor="Green"  FontSize="24" AbsoluteLayout.LayoutBounds="5, 570, 350, 60" Clicked="change_compli" />
+        <Button Text="Start" FontFamily="Pixel" TextColor="GreenYellow"  FontSize="24" AbsoluteLayout.LayoutBounds="5, 630, 350, 60" />
+    </AbsoluteLayout>
 
 </ContentPage>

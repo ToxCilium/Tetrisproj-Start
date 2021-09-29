@@ -540,11 +540,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\App2\\App2\\App2\\App2.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Tetris\\Tetris-Prog\\App2\\App2\\App2.csproj",
       "projectName": "App2",
-      "projectPath": "C:\\Users\\User\\source\\repos\\App2\\App2\\App2\\App2.csproj",
+      "projectPath": "C:\\Users\\User\\source\\repos\\Tetris\\Tetris-Prog\\App2\\App2\\App2.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\App2\\App2\\App2\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\Tetris\\Tetris-Prog\\App2\\App2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

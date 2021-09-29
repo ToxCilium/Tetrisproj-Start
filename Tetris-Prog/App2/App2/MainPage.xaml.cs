@@ -7,19 +7,40 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+
+
 namespace App2
 {
+
     public partial class MainPage : ContentPage
     {
+        static int compli=0;
+        static string change = "";
         public MainPage()
         {
+
             InitializeComponent();
         }
-        private void Button_Clicked(object sender, System.EventArgs e)
+        private void change_compli(object sender, System.EventArgs e)
         {
-            string xaml = "<Label Text=\"Xamarin Forms\" FontSize=\"24\" TextColor=\"Red\" />";
-            lbl.LoadFromXaml(xaml);
-        }
+            compli++;
+            if (compli > 2) compli = 0;
+            switch (compli)
+            {
+                case 0:
+                    change = "<Button Text=\"Ez\" TextColor=\"Green\" />";
+                    EMH.LoadFromXaml(change);
+                    break;
+                case 1:
+                    change = "<Button Text=\"Medium\" TextColor=\"Yellow\" />";
+                    EMH.LoadFromXaml(change);
+                    break;
+                case 2:
+                    change = "<Button Text=\"Hard\" TextColor=\"Red\" />";
+                    EMH.LoadFromXaml(change);
+                    break;
+            }
 
+        }
     }
 }
