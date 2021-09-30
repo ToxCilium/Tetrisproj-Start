@@ -18,7 +18,7 @@ namespace App2
         static string change = "";
         public MainPage()
         {
-
+            Title = null;
             InitializeComponent();
         }
         private void change_compli(object sender, System.EventArgs e)
@@ -40,7 +40,15 @@ namespace App2
                     EMH.LoadFromXaml(change);
                     break;
             }
-
         }
+        private async void Starto(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new StPage());
+        }
+        private async void Setting(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page1());
+        }
+
     }
 }

@@ -1,14 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="Black"
              x:Class="App2.MainPage">
 
-    <AbsoluteLayout>
-        <BoxView Color="Black" AbsoluteLayout.LayoutBounds="1, 1, 500, 45" VerticalOptions="Center" />
-        <Label  Text="Tetris-Proj" TextColor="White" FontSize="30" FontFamily="Pixel" AbsoluteLayout.LayoutBounds="75, 10, 500, 55"   />
-        <Button Text="Start" FontFamily="Pixel" TextColor="GreenYellow"  FontSize="24" AbsoluteLayout.LayoutBounds="5, 630, 350, 60" />
-        <Button x:Name="EMH" Text="Ez" FontFamily="Pixel" TextColor="Green"  FontSize="24" AbsoluteLayout.LayoutBounds="5, 570, 350, 60" Clicked="change_compli" />
-        <Button Text="Start" FontFamily="Pixel" TextColor="GreenYellow"  FontSize="24" AbsoluteLayout.LayoutBounds="5, 630, 350, 60" />
-    </AbsoluteLayout>
+    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+        <StackLayout Orientation="Horizontal" VerticalOptions="Start">
+            <!-- top controls -->
+            <Label  Text="Tetris-Proj" TextColor="White" FontSize="30" AbsoluteLayout.LayoutBounds="1, 1, 500, 45" FontFamily="Pixel"  HorizontalOptions="CenterAndExpand"   />
+        </StackLayout>
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <!-- middle controls -->
+        </StackLayout>
+        <StackLayout  VerticalOptions="End">
+            <!-- bottom controls -->
+            <Button Text="Settings" FontFamily="Pixel" TextColor="LightYellow"  FontSize="24" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" BackgroundColor="Transparent" Clicked="Setting"/>
+            <Button x:Name="EMH" Text="Ez" FontFamily="Pixel" TextColor="Green"  FontSize="24" HorizontalOptions="CenterAndExpand" VerticalOptions="Center" Clicked="change_compli" BackgroundColor="Transparent" />
+            <Button Text="Start" FontFamily="Pixel" TextColor="GreenYellow"  FontSize="30"   BackgroundColor="White" Clicked="Starto"/>
+        </StackLayout>
+    </StackLayout>
 
 </ContentPage>

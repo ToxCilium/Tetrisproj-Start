@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "x3kbbnxx/PH6WjrNwIK+BHKJL3CN7J2Rz8BjTu5OmQmNlP284oBTzvmtg/S9n7yyUUi9QnaahBrMagZFPQ6nXQ==",
+  "dgSpecHash": "IX1ZjhZZA5yk/rP5RChwi3QpP8CDwe9p2MVQD4QsBu0y6GOXhtUh7QHCjQze1v4z+3KlDbbe0fL2jGF1y03g/w==",
   "success": true,
   "projectFilePath": "C:\\Users\\User\\source\\repos\\Tetris\\Tetris-Prog\\App2\\App2\\App2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\rg.plugins.popup\\2.0.0.13\\rg.plugins.popup.2.0.0.13.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"

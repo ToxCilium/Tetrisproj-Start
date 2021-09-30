@@ -1,10 +1,11 @@
 package mono;
 public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
-		/* We need to ensure that "App2.Android.dll" comes first in this list. */
-		"App2.Android.dll",
+		/* We need to ensure that "Tetris-Proj0.Android.dll" comes first in this list. */
+		"Tetris-Proj0.Android.dll",
 		"App2.dll",
 		"FormsViewGroup.dll",
+		"Rg.Plugins.Popup.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
 		"Xamarin.AndroidX.Annotation.Experimental.dll",
